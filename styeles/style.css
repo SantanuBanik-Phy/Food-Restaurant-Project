@@ -1,0 +1,214 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+    max-resolution: 0;
+    padding: 0;
+}
+#hero{
+    width: 1536px;
+   height: 735px;
+ background-image:linear-gradient(0deg, rgb(16, 16, 16) -19.5%,rgba(16, 16, 16, 0) 100%),url("../assets/hero-bg.png");
+ background-size: cover;
+ background-position: center;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+
+}
+#hero .hero-content{
+    width: 818px;
+    
+}
+#hero .hero-content .subtitle{
+    color: rgb(255, 255, 255);
+    font-family: Work Sans;
+    font-size: 25px;
+    font-weight: 600;
+    line-height: 30px;
+    letter-spacing: 0%;
+    text-align: center;
+    opacity: 0.8;
+    margin-bottom: 12px;
+}
+#hero .hero-content .title{
+    color: rgb(255, 255, 255);
+font-family: Work Sans;
+font-size: 51px;
+font-weight: 700;
+line-height: 64px;
+letter-spacing: 0%;
+text-align: center;
+margin-bottom: 19px;
+
+}
+#hero .hero-content .summary{
+    color: rgb(255, 255, 255);
+font-family: Work Sans;
+font-size: 14px;
+font-weight: 500;
+line-height: 22px;
+letter-spacing: 0%;
+text-align: center;
+opacity: 0.7;
+margin-bottom: 25px;
+
+
+}
+.btn{
+    padding: 16px 25px 16px 25px;
+    
+    border-radius: 8px;
+    cursor: pointer;
+
+background: rgb(82, 195, 3);
+color: rgb(255, 255, 255);
+font-family: Work Sans;
+font-size: 16px;
+font-weight: 600;
+line-height: 18px;
+letter-spacing: 0%;
+text-align: center;
+border: none;
+}
+.btn-container{
+    text-align: center;
+}
+#card-box{
+   width: 1056px;
+   
+   margin: 60px auto; 
+  
+}
+#card-box .title{
+    color: rgb(16, 16, 16);
+font-family: Work Sans;
+font-size: 38px;
+font-weight: 700;
+line-height: 51px;
+letter-spacing: 0%;
+text-align: center;
+}
+#card-box .subtitle{
+    color: rgb(16, 16, 16);
+font-family: Work Sans;
+font-size: 19px;
+font-weight: 500;
+line-height: 22px;
+letter-spacing: 0%;
+text-align: center;
+opacity: 0.6;
+}
+.card-container{
+   margin-top: 38px;
+   display: flex;
+   justify-content: space-between;
+   gap: 20px;
+   font-family: Work Sans;
+}
+.card{
+    max-width: 339px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.card .image-box{
+    width: 339px;
+}
+.card .image-box img{
+    width: 100%;
+}
+.card .shop{
+    padding: 11px 25px 11px 25px;
+    border-radius: 8px;
+
+background: rgba(82, 195, 3, 0.15);
+}
+#social{
+    width: 1536px;
+   
+}
+
+#social .food-container{
+        
+    display: flex;
+    justify-content:space-around;
+    flex-direction: row;
+    font-family: Work Sans;
+    text-align: center;
+    align-items: center;
+    border: .5px solid rgb(194, 183, 183);
+    
+}
+
+.food-container .food-pic{
+    width:768px;
+    
+}
+.food-container .food-pic img{
+    width: 100%;
+}
+#social .food-container .title{
+    color: rgb(16, 16, 16);
+font-family: Work Sans;
+font-size: 38px;
+font-weight: 700;
+line-height: 51px;
+letter-spacing: 0%;
+text-align: center;
+}
+#social .food-container .subtitle{
+    color: rgb(16, 16, 16);
+font-family: Work Sans;
+font-size: 19px;
+font-weight: 500;
+line-height: 22px;
+letter-spacing: 0%;
+
+opacity: 0.6;
+
+}
+#social .food-container .sub-class{
+    color: rgb(16, 16, 16);
+font-family: Work Sans;
+font-size: 32px;
+font-weight: 600;
+line-height: 38px;
+letter-spacing: 0%;
+text-align: center;
+opacity: 0.7;
+
+}
+.image-icon{
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+    align-items: center;
+    gap:20px;
+
+}
+.image-icon .view-icon{
+     top: 5px;
+    right: 10px;
+    width: 20px;
+    z-index: 10
+}
+#last{
+    width: 1536px;
+    height: 536px;
+    background-image:linear-gradient(180deg, rgb(254, 251, 251) -19.5%,rgba(246, 234, 234, 0.797) 100%),url("../assets/social-bg.png");
+    background-size: cover;
+ background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ 
+}  
+.last-title{
+    
+    justify-content: center;
+    text-align: center;
+    font-family: Work Sans;
+    align-items: center;
+}
